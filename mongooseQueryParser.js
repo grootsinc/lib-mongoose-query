@@ -112,4 +112,6 @@ const parse = (req) => {
 	});
 };
 
-module.exports = parse;
+module.exports = {
+	parse,
+};
