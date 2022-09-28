@@ -1,0 +1,12 @@
+{
+  "name": "lib-mongoose-query",
+  "version": "1.0.0",
+  "description": "mongoose query parser",
+  "main": "mongooseQueryParser.js",
+  "repository": "git@github.com:grootsinc/lib-mongoose-query.git",
+  "author": "Groots.inc",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.7.2"
+  }
+}
