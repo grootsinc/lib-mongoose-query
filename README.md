@@ -34,7 +34,7 @@ substituting Sequelize operators with below keys.
 	ne: "$ne",
 	eq: "$eq",
 	not: "$not",
-	regexp: "$regex", Example: regexp -> {"gender": {"regexp": "female"}}, not regexp ->  {"gender": { "not": {"regexp": "female"}}} 
+	regexp: "$regex", // Example: regexp -> {"gender": {"regexp": "female"}}, not regexp ->  {"gender": { "not": {"regexp": "female"}}} 
 	and: "$and", // AND (a = 5)
 	or: "$or", // (a = 5 OR a = 6)
 	nor: "$nor", // !(a = 5 OR a = 6)
